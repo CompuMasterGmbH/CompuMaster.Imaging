@@ -6,3 +6,5 @@
 /CompuMaster.Imaging/bin
 /CompuMaster.Imaging/*.user
 /.vs
+
+*.nupkg
