@@ -1,7 +1,7 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-<Assembly: AssemblyTitle("CompuMaster.Imaging")>
+<Assembly: AssemblyTitle("CompuMaster.Imaging - MIT license edition")>
 <Assembly: AssemblyDescription("JIT resizing of images, EXIF tools and more")> 
 <Assembly: AssemblyCompany("CompuMaster GmbH")> 
 <Assembly: AssemblyProduct("CompuMaster Tools")>
