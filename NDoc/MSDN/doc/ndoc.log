@@ -1,0 +1,398 @@
+Building documentation...
+Initializing...
+Merging XML documentation...
+Building file mapping...
+Loading XSLT files...
+    namespace.xslt
+    namespacehierarchy.xslt
+    type.xslt
+    typehierarchy.xslt
+    allmembers.xslt
+    individualmembers.xslt
+    event.xslt
+    member.xslt
+    memberoverload.xslt
+    property.xslt
+    field.xslt
+    htmlcontents.xslt
+Generating HTML pages...
+CompuMaster.Drawing.Imaging.html
+CompuMaster.Drawing.ImagingHierarchy.html
+CompuMaster.Drawing.Imaging.FrameMaker.html
+CompuMaster.Drawing.Imaging.FrameMakerMembers.html
+CompuMaster.Drawing.Imaging.FrameMakerConstructor.html
+CompuMaster.Drawing.Imaging.FrameMakerProperties.html
+CompuMaster.Drawing.Imaging.FrameMaker.InnerFrameWidth.html
+CompuMaster.Drawing.Imaging.FrameMaker.MiddleFrameWidth.html
+CompuMaster.Drawing.Imaging.FrameMaker.OuterFrameWidth.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvancedMembers.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvancedConstructor.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvancedProperties.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientCoverageEndValue.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientCoverageStartValue.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientFadeModifier.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.html
+CompuMaster.Drawing.Imaging.FrameMakerBaseMembers.html
+CompuMaster.Drawing.Imaging.FrameMakerBaseConstructor.html
+CompuMaster.Drawing.Imaging.FrameMakerBaseFields.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameGradientCoverageEndValue.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameGradientCoverageStartValue.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameGradientFadeModifier.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._MiddleFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._MiddleFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._MiddleFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._MiddleFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._OuterFrameWidthLeft.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._OuterFrameWidthLower.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._OuterFrameWidthRight.html
+CompuMaster.Drawing.Imaging.FrameMakerBase._OuterFrameWidthUpper.html
+CompuMaster.Drawing.Imaging.FrameMakerBaseProperties.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.FrameType.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameBlue.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameColor.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameGreen.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameRed.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameBlue.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameColor.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameGreen.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameRed.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameBlue.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameColor.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameGreen.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameRed.html
+CompuMaster.Drawing.Imaging.FrameMakerBaseMethods.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyFilter.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyInnerFrame.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyMiddleFrame.html
+CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyOuterFrame.html
+CompuMaster.Drawing.Imaging.FrameTypes.html
+CompuMaster.Drawing.Imaging.IImageFilter.html
+CompuMaster.Drawing.Imaging.IImageFilterMembers.html
+CompuMaster.Drawing.Imaging.IImageFilterProperties.html
+CompuMaster.Drawing.Imaging.IImageFilter.Image.html
+CompuMaster.Drawing.Imaging.IImageFilterMethods.html
+CompuMaster.Drawing.Imaging.IImageFilter.ApplyFilter.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.html
+CompuMaster.Drawing.Imaging.IImageScalingProviderMembers.html
+CompuMaster.Drawing.Imaging.IImageScalingProviderProperties.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.BackgroundColor.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageInput.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutput.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ResizedHeight.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ResizedWidth.html
+CompuMaster.Drawing.Imaging.IImageScalingProviderMethods.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutputData_overloads.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutputData_overload_2.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutputData_overload_1.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Load.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Resize_overloads.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Resize_overload_2.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Resize_overload_1.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Save_overloads.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Save_overload_2.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.Save_overload_1.html
+CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.html
+CompuMaster.Drawing.Imaging.ImageFilterBaseMembers.html
+CompuMaster.Drawing.Imaging.ImageFilterBaseConstructor.html
+CompuMaster.Drawing.Imaging.ImageFilterBaseProperties.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.Image.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ImagePixelColor.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ImagePixelColorValue.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.Measurement.html
+CompuMaster.Drawing.Imaging.ImageFilterBaseMethods.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ApplyFilter.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertDrawingColorToIntegerColor.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertIntegerColorToDrawingColor.html
+CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertRGBColorToIntegerColor.html
+CompuMaster.Drawing.Imaging.ImageRotator.html
+CompuMaster.Drawing.Imaging.ImageRotatorMembers.html
+CompuMaster.Drawing.Imaging.ImageRotatorConstructor.html
+CompuMaster.Drawing.Imaging.ImageRotatorProperties.html
+CompuMaster.Drawing.Imaging.ImageRotator.Image.html
+CompuMaster.Drawing.Imaging.ImageRotator.RotateFlipType.html
+CompuMaster.Drawing.Imaging.ImageRotatorMethods.html
+CompuMaster.Drawing.Imaging.ImageRotator.ApplyFilter.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilter.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilterMembers.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilterConstructor.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilterProperties.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilter.FiltersToApplyAfterResizing.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilter.FiltersToApplyBeforeResizing.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilterMethods.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilter.Resize_overloads.html
+CompuMaster.Drawing.Imaging.ImageScaleAndFilter.Resize_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScaling.html
+CompuMaster.Drawing.Imaging.ImageScalingMembers.html
+CompuMaster.Drawing.Imaging.ImageScalingConstructor.html
+CompuMaster.Drawing.Imaging.ImageScalingProperties.html
+CompuMaster.Drawing.Imaging.ImageScaling.Quality.html
+CompuMaster.Drawing.Imaging.ImageScalingMethods.html
+CompuMaster.Drawing.Imaging.ImageScaling.Load_overloads.html
+CompuMaster.Drawing.Imaging.ImageScaling.Load_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScaling.Load_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScaling.Read_overloads.html
+CompuMaster.Drawing.Imaging.ImageScaling.Read_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScaling.Read_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScaling.Read_overload_3.html
+CompuMaster.Drawing.Imaging.ImageScaling.Read_overload_4.html
+CompuMaster.Drawing.Imaging.ImageScaling.Resize_overloads.html
+CompuMaster.Drawing.Imaging.ImageScaling.Resize_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScaling.Resize_overload_4.html
+CompuMaster.Drawing.Imaging.ImageScaling.Resize_overload_3.html
+CompuMaster.Drawing.Imaging.ImageScaling.Save_overloads.html
+CompuMaster.Drawing.Imaging.ImageScaling.Save_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScaling.Save_overload_3.html
+CompuMaster.Drawing.Imaging.ImageScaling.Save_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBaseMembers.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBaseConstructor.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBaseFields.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ResizedImage.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBaseProperties.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.BackgroundColor.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageInput.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutput.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ResizedHeight.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ResizedWidth.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBaseMethods.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutputData_overloads.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutputData_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutputData_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Load.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Resize_overloads.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Resize_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Resize_overload_1.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Save_overloads.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Save_overload_2.html
+CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Save_overload_1.html
+CompuMaster.Drawing.Imaging.Measurement.html
+CompuMaster.Drawing.Imaging.ShadowMaker.html
+CompuMaster.Drawing.Imaging.ShadowMakerMembers.html
+CompuMaster.Drawing.Imaging.ShadowMakerConstructor.html
+CompuMaster.Drawing.Imaging.ShadowMakerProperties.html
+CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundBlue.html
+CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundColor.html
+CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundGreen.html
+CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundRed.html
+CompuMaster.Drawing.Imaging.ShadowMaker.FrameWidth.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowBlue.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowColor.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowGradientWidth.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowGreen.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowRed.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowStrength.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ShadowWidth.html
+CompuMaster.Drawing.Imaging.ShadowMakerMethods.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ApplyFilter.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ApplyOuterFrame.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ApplyShadow.html
+CompuMaster.Drawing.Imaging.ShadowMaker.ApplyShadowGradient.html
+CompuMaster.Drawing.Imaging.ShadowMaker.CalculateShadowGradientPixelColor.html
+CompuMaster.Drawing.Imaging.ShadowMaker.CalculateShadowPixelColor.html
+CompuMaster.Drawing.Imaging.ShadowTextureMaker.html
+CompuMaster.Drawing.Imaging.ShadowTextureMakerMembers.html
+CompuMaster.Drawing.Imaging.ShadowTextureMakerConstructor.html
+CompuMaster.Drawing.Imaging.ShadowTextureMakerProperties.html
+CompuMaster.Drawing.Imaging.ShadowTextureMaker.TextureImage.html
+CompuMaster.Drawing.Imaging.ShadowTextureMaker.TextureImagePath.html
+CompuMaster.Drawing.Imaging.ShadowTextureMakerMethods.html
+CompuMaster.Drawing.Imaging.ShadowTextureMaker.ApplyFilter.html
+CompuMaster.Drawing.Imaging.ShadowTextureMaker.ApplyOuterFrameTexture.html
+Generating HTML content file...
+transform the HHC contents file into html
+Compiling HTML Help file...
+Compiling Html Help file
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling \\wks23\g$\svn_repository\compumaster_products\tools\CompuMaster.Imaging\NDoc\MSDN\doc\ndoc_msdn_temp\CompuMaster.Imaging.chm
+
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+
+Compile time: 0 minutes, 3 seconds
+403	Topics
+1,545	Local links
+200	Internet links
+5	Graphics
+
+
+Created \\wks23\g$\svn_repository\compumaster_products\tools\CompuMaster.Imaging\NDoc\MSDN\doc\ndoc_msdn_temp\CompuMaster.Imaging.chm, 123,702 bytes
+Compression decreased file by 740,679 bytes.
+
+Html Help compile complete
+Done.

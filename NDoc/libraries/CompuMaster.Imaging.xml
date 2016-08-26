@@ -1,0 +1,1228 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>CompuMaster.Imaging</name>
+    <version>1.0.3314.18313</version>
+    <fullname>CompuMaster.Imaging, Version=1.0.3314.18313, Culture=neutral, PublicKeyToken=null</fullname>
+  </assembly>
+  <members>
+    <member name="T:CompuMaster.Drawing.Imaging.Measurement">
+      <summary>
+     Available measurement units 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	Created 
+ </history></member>
+    <member name="T:CompuMaster.Drawing.Imaging.FrameTypes">
+      <summary>
+     Available frame crossing types 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.ImageFilterBase.ImagePixelColorValue(System.Int32,System.Int32)">
+      <summary>
+     The color of a pixel of the main image 
+ </summary>
+ <param name="x">x position</param>
+ <param name="y">y position</param>
+ <value>An integer calculated as following: R*65536+G*255+B</value>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.ImageFilterBase.ImagePixelColor(System.Int32,System.Int32)">
+      <summary>
+     The color of a pixel of the main image 
+ </summary>
+ <param name="x">x position</param>
+ <param name="y">y position</param>
+ <value>An integer calculated as following: R*65536+G*255+B</value>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	Created 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertRGBColorToIntegerColor(System.Byte,System.Byte,System.Byte)">
+      <summary>
+     Converts the RGB colour components to a single 24Bit colour 
+ </summary>
+ <param name="red">The colour's red saturation</param>
+ <param name="green">The colour's green saturation</param>
+ <param name="blue">The colour's blue saturation</param>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertIntegerColorToDrawingColor(System.Int32)">
+      <summary>
+     Converts an integer colour value to a color object 
+ </summary>
+ <param name="color" />
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.ImageFilterBase.ConvertDrawingColorToIntegerColor(System.Drawing.Color)">
+      <summary>
+     Converts a color object into an integer colour value 
+ </summary>
+ <param name="color" />
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.ImageFilterBase.Image">
+      <summary>
+     The image which is subject of all manipulations 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	(Documentation) Created 
+ </history></member>
+    <member name="T:CompuMaster.Drawing.Imaging.FrameMakerBase">
+      <summary>
+     A class which includes all the functionality for applying different 
+     frame effects to an image. 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Renamed to FrameMakerBase, now containing 
+                                 extended functionality, former base 
+                                 functionality wrapped by FrameMaker class 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyFilter">
+      <summary>
+     Applies the selected frame effect to the given image 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Added extended functionality, moved to FrameMakerBase class 
+     [abaldauf]      2006-05-13  Enhanced inner frame functionality for smoother corner effects 
+     [abaldauf]      2006-05-26  Moved original functionality to three independant functions 
+                                 and revamped inner frame functionality 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyOuterFrame">
+      <summary>
+     Draws the outer frame onto the image 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]	    26.05.2006	Created (moved functionality from former ApplyFilter() here 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyMiddleFrame">
+      <summary>
+     Draws the middle frame onto the image 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]  	26.05.2006	Created (moved functionality from former ApplyFilter() here 
+ </history></member>
+    <member name="M:CompuMaster.Drawing.Imaging.FrameMakerBase.ApplyInnerFrame(System.Double,System.Double,System.Boolean)">
+      <summary>
+     Draws the inner frame (effect) onto the image 
+ </summary>
+ <param name="GradientCoverageStartValue" />
+ <param name="GradientCoverageEndValue" />
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]	    26.05.2006	Created (moved functionality from former ApplyFilter() here 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.FrameType">
+      <summary>
+     Gets or sets the style of the frame effect 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+ </history></member>
+    <member name="F:CompuMaster.Drawing.Imaging.FrameMakerBase._OuterFrameWidthLeft">
+      <summary>
+     Width of each of the four sides of the outer frame 
+     No frame will be drawn on a side which is set to 0 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	14.01.2006	Created 
+ </history></member>
+    <member name="F:CompuMaster.Drawing.Imaging.FrameMakerBase._MiddleFrameWidthLeft">
+      <summary>
+     Width of each of the four sides of the middle frame 
+     No frame will be drawn on a side which is set to 0 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	14.01.2006	Created 
+ </history></member>
+    <member name="F:CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameWidthLeft">
+      <summary>
+     Width of each of the four sides of the inner frame 
+     No frame will be drawn on a side which is set to 0 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	14.01.2006	Created 
+ </history></member>
+    <member name="F:CompuMaster.Drawing.Imaging.FrameMakerBase._InnerFrameGradientCoverageStartValue">
+      <summary>
+     The Starting and ending values of the gradient's transparency, 
+     allows for a hard step or edge in transparency or only slightly fadeout (not 
+     only complete ones as before). 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]	24.05.2006	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameBlue">
+      <summary>
+     Blue colour component of outer frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameGreen">
+      <summary>
+     Green colour component of outer frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameRed">
+      <summary>
+     Red colour component of outer frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameBlue">
+      <summary>
+     Blue colour component of inner frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameGreen">
+      <summary>
+     Green colour component of inner frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameRed">
+      <summary>
+     Red colour component of inner frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameBlue">
+      <summary>
+     Blue colour component of middle frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameGreen">
+      <summary>
+     Green colour component of middle frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameRed">
+      <summary>
+     Red colour component of middle frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.InnerFrameColor">
+      <summary>
+     Integer colour value of inner frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.MiddleFrameColor">
+      <summary>
+     Integer colour value of middle frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerBase.OuterFrameColor">
+      <summary>
+     Integer colour value of outer frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member>
+    <member name="T:CompuMaster.Drawing.Imaging.FrameMaker">
+      <summary>
+     A class which includes all the functionality for applying different 
+     frame effects to an image. 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Revamped to realize base functionality behaviour 
+                                 on top of using extended functionality 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMaker.OuterFrameWidth">
+      <summary>
+     Gets or sets the width of the outer of up to three frames 
+     No outer frame is drawn if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Make correct use of used extended functionality 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMaker.MiddleFrameWidth">
+      <summary>
+     Gets or sets the width of the middle of up to three frames 
+     No middle frame is drawn if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Make correct use of used extended functionality 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMaker.InnerFrameWidth">
+      <summary>
+     Gets or sets the width of the inner of up to three frames 
+     No inner frame is drawn if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	(Documentation) Created 
+     [abaldauf]      2006-01-14  Make correct use of used extended functionality 
+ </history></member>
+    <member name="T:CompuMaster.Drawing.Imaging.FrameMakerAdvanced">
+      <summary>
+     A class which includes all the functionality for applying different 
+     frame effects to an image. 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created for full usage of advanced functionality 
+                                 provided by FrameMakerBase 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthLeft">
+      <summary>
+     Gets or sets the width of the left side of the outer frame 
+     No outer frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthRight">
+      <summary>
+     Gets or sets the width of the right side of the outer frame 
+     No outer frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthUpper">
+      <summary>
+     Gets or sets the width of the upper side of the outer frame 
+     No outer frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.OuterFrameWidthLower">
+      <summary>
+     Gets or sets the width of the lower side of the outer frame 
+     No outer frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthLeft">
+      <summary>
+     Gets or sets the width of the left side of the middle frame 
+     No middle frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthRight">
+      <summary>
+     Gets or sets the width of the right side of the middle frame 
+     No middle frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthUpper">
+      <summary>
+     Gets or sets the width of the upper side of the middle frame 
+     No middle frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.MiddleFrameWidthLower">
+      <summary>
+     Gets or sets the width of the lower side of the middle frame 
+     No middle frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthLeft">
+      <summary>
+     Gets or sets the width of the left side of the inner frame 
+     No inner frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthRight">
+      <summary>
+     Gets or sets the width of the right side of the inner frame 
+     No inner frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthUpper">
+      <summary>
+     Gets or sets the width of the upper side of the inner frame 
+     No inner frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameWidthLower">
+      <summary>
+     Gets or sets the width of the lower side of the inner frame 
+     No inner frame is drawn on this side if set to 0 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+     [abaldauf]      2006-01-14  Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientCoverageStartValue">
+      <summary>
+     Start coverage value of the inner frame's gradient 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]	24.05.2006	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientCoverageEndValue">
+      <summary>
+     End coverage value of the inner frame's gradient 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[abaldauf]	24.05.2006	Created 
+ </history></member>
+    <member name="P:CompuMaster.Drawing.Imaging.FrameMakerAdvanced.InnerFrameGradientFadeModifier">
+      <summary>
+     Modifier for the behaviour of the fade effect, 
+     <member name="T:CompuMaster.Drawing.Imaging.ShadowMaker"><summary>
+     A class which includes all the functionality for applying different 
+     shadow effects to an image. 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.ApplyOuterFrame"><summary>
+     Creates the outer frame around the image on which the shadow effect 
+     will be drawn 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.CalculateShadowPixelColor(System.Int32,System.Double)"><summary>
+     Calculates the integer colour value of a single shadow pixel 
+     dependant on the background colour behind it, the shadow's colour 
+     and the transparency factor of the shadow 
+ </summary>
+ <param name="oldColor" />
+ <param name="transparencyFactor" />
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.ApplyShadow"><summary>
+     Draws the shadow effect around the image onto the outer frame 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.CalculateShadowGradientPixelColor(System.Int32,System.Double)"><summary>
+     Calculates the integer colour value of a single shadow gradient pixel 
+     dependant on the background colour behind it, the shadow's colour 
+     and the transparency factor of the shadow gradient at the current pixel 
+ </summary>
+ <param name="oldColor" />
+ <param name="transparencyFactor" />
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.ApplyShadowGradient"><summary>
+     Draws a shadow gradient effect (fading out) around the main shadow 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.ApplyFilter"><summary>
+     Applies the shadow effects to the image according to the given parameters 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.FrameWidth"><summary>
+     The width of the additional border area where the background is visible 
+ 
+     This value does NOT include the additional width of the shadow and the 
+     shadow gradient, it DOES only describes the width of the border area 
+     around the image, shadow and shadow gradient 
+ 
+     May be zero even if a shadow and a shadow gradient are drawn 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	13.06.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowWidth"><summary>
+     Gets or sets the width that the shadow will be drawn below and 
+     to the right of the main image's area 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowGradientWidth"><summary>
+     Gets or sets the width of the shadow gradient to be drawn around 
+     the shadow 
+ 
+     This value must be <member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowStrength"><summary>
+     Gets or sets the coverage (inverse transparency) factor (in %) 
+     of the shadow 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundBlue"><summary>
+     Gets or sets the blue colour component of the background frame's colour 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundRed"><summary>
+     Gets or sets the red colour component of the background frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundGreen"><summary>
+     Gets or sets the green colour component of the background frame's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowBlue"><summary>
+     Gets or sets the blue colour component of the shadow's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowRed"><summary>
+     Gets or sets the red colour component of the shadow's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowGreen"><summary>
+     Gets or sets the green colour component of the shadow's colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.ShadowColor"><summary>
+     Gets or sets the shadow's 24bit integer colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowMaker.BackgroundColor"><summary>
+     Gets or sets the background's 24bit integer colour 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowMaker.#ctor"><summary>
+     Initializes a new instance of this class and sets the default values 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.ShadowTextureMaker"><summary>
+     A class which includes all the functionality for applying different 
+     shadow effects to an image using a textured background instead of a 
+     fixed colour background 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowTextureMaker.ApplyOuterFrameTexture"><summary>
+     Draws the background image's texture to the area around the main image 
+     If necessary, the background texture will be patterned, cut out or 
+     resized to cover the whole area 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowTextureMaker.ApplyFilter"><summary>
+     Applies the shadow effects to the image according to the given parameters 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowTextureMaker.TextureImage"><summary>
+     Gets or sets the image that will be used as background texture 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowTextureMaker.TextureImagePath"><summary>
+     The path to the background texture image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	27.06.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ShadowTextureMaker.TexturePixel(System.Int32,System.Int32)"><summary>
+     Gets or sets a pixel's 24bit integer colour value at the given positon 
+ </summary>
+ <param name="x" />
+ <param name="y" />
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ShadowTextureMaker.#ctor"><summary>
+     Initializes a new instance of this class and sets the default values 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.ImageRotator"><summary>
+     Rotate images by 0, 90, 180 or 270 degrees 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	25.06.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageRotator.ApplyFilter"><summary>
+     Rotates the given image by the given value 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageRotator.Image"><summary>
+     Gets or sets the image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageRotator.RotateFlipType"><summary>
+     Gets or sets the value by which the image will be rotated 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	04.07.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.IImageFilter"><summary>
+     The common interface for all image filters 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageFilter.ApplyFilter"><summary>
+     Apply the filter as it has been configured 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageFilter.Image"><summary>
+     The image where the filter shall be applied 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	21.03.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.IImageScalingProvider"><summary>
+     The common interface for all image scaling classes 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.Resize(System.Int32,System.Int32)"><summary>
+     Resize an image to fit to the new maximum dimensions with a high quality, bilinear processing 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.Resize(System.Int32,System.Int32,CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode)"><summary>
+     Resize an image to fit to the new maximum dimensions 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <param name="scaleMode">Fit or scale the image</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode"><summary>
+     Image scaling modes 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="F:CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode.Scale"><summary>
+     The image will be resized with width and height values as maximum values 
+ </summary>
+ <remarks>
+     Requires at least one value of width and height; zero values lead to ignoration when calculating new size 
+     Width respectively height might change its value to reflect the new size information. See CurrentWidth and CurrentHeight for updated values 
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="F:CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode.Fit"><summary>
+     The image will be resized to fill the complete area defined by width and height 
+ </summary>
+ <remarks>
+     Requires width and height value, otherwise an exception will be thrown 
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="F:CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode.FitExact"><summary>
+     The image will be resized and centered to be completely inside of width and height, empty areas will be filled with the background color 
+ </summary>
+ <remarks>
+     Requires width and height value, otherwise an exception will be thrown 
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutput"><summary>
+     The resized image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageInput"><summary>
+     The input images where the resizing starts 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageScalingProvider.ResizedHeight"><summary>
+     The height of the output image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageScalingProvider.ResizedWidth"><summary>
+     The width of the output image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.Load(System.String)"><summary>
+     Load an input file from disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.IImageScalingProvider.BackgroundColor"><summary>
+     The default background color when fitting to width and height lead to empty areas 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.Save(System.String)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.Save(System.String,System.Drawing.Imaging.ImageFormat)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <param name="format">The desired file format (e. g. JPG)</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutputData"><summary>
+     The image as JPG binary data, as a byte array to be stored e. g. on disc or database 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.IImageScalingProvider.ImageOutputData(System.Drawing.Imaging.ImageFormat)"><summary>
+     The image as binary data, as a byte array to be stored e. g. on disc or database 
+ </summary>
+ <param name="format">The file format for the binary output</param>
+ <returns>The binary data of the image</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	20.03.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.ImageScalingProviderBase"><summary>
+     A base implementation of IImageScaling 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutputData"><summary>
+     The image as binary data, as a byte array to be stored e. g. on disc or database 
+ </summary>
+ <returns>Binary data in JPEG file format</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutputData(System.Drawing.Imaging.ImageFormat)"><summary>
+     The image as binary data, as a byte array to be stored e. g. on disc or database 
+ </summary>
+ <param name="format">The file format for the binary output</param>
+ <returns>The binary data of the image</returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	20.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.BackgroundColor"><summary>
+     The default background color when fitting to width and height lead to empty areas 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageOutput"><summary>
+     The resized image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ImageInput"><summary>
+     The input images where the resizing starts 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ResizedHeight"><summary>
+     The height of the output image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.ResizedWidth"><summary>
+     The width of the output image 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Resize(System.Int32,System.Int32)"><summary>
+     Resize an image to fit to the new maximum dimensions with a high quality, bilinear processing 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Resize(System.Int32,System.Int32,CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode)"><summary>
+     Resize an image to fit to the new maximum dimensions 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <param name="scaleMode">Fit or scale the image</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Load(System.String)"><summary>
+     Load an input file from disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Save(System.String)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScalingProviderBase.Save(System.String,System.Drawing.Imaging.ImageFormat)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <param name="format">The desired file format (e. g. JPG)</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="T:CompuMaster.Drawing.Imaging.ImageScaling"><summary>
+     Image manimuplations 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Read(System.Byte[])"><summary>
+     Convert a byte array back to an image 
+ </summary>
+ <param name="data">The array of bytes which represent the binary stream of JPG, GIF, PNG or other supported file formats</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Read(System.Byte[],System.Boolean)"><summary>
+     Convert a byte array back to an image 
+ </summary>
+ <param name="data">The array of bytes which represent the binary stream of JPG, GIF, PNG or other supported file formats</param>
+ <param name="useEmbeddedColorManagement">Set to true if you want to use the color information embedded in the data stream</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[wezel]	22.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Read(System.Byte(),System.Boolean,System.Boolean)"><summary>
+     Convert a byte array back to an image 
+ </summary>
+ <param name="data">The array of bytes which represent the binary stream of JPG, GIF, PNG or other supported file formats</param>
+ <param name="useEmbeddedColorManagement">Set to true if you want to use the color information embedded in the data stream</param>
+ <param name="validateImageData">Set to true to validate the image data</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[wezel]	22.07.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Read(System.IO.Stream,System.Boolean,System.Boolean)"><summary>
+     Convert a data stream back to an image 
+ </summary>
+ <param name="data">The binary stream of JPG, GIF, PNG or other supported file formats</param>
+ <param name="useEmbeddedColorManagement">Set to true if you want to use the color information embedded in the data stream</param>
+ <param name="validateImageData">Set to true to validate the image data</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[wezel]	22.07.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScaling.Quality"><summary>
+     The image quality when saving files (e. g. important for JPG file format) 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Load(System.String,System.Boolean)"><summary>
+     Load an input file from disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <param name="useEmbeddedColorManagement">Use color information already stored in the image file</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Load(System.String)"><summary>
+     Load an input file from disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Save(System.String)"><summary>
+     Save the image as file on disc in the default file format (.png) 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Save(System.String,System.Drawing.Imaging.ImageFormat)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <param name="format">The desired file format (e. g. JPG)</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Save(System.String,System.Drawing.Imaging.ImageCodecInfo)"><summary>
+     Save the image as file on disc 
+ </summary>
+ <param name="filename">The file name on disc</param>
+ <param name="fileFormat">A file format as a codec information</param>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Resize(System.Int32,System.Int32,System.Drawing.Drawing2D.InterpolationMode)"><summary>
+     Resize an image to fit to the new maximum dimensions 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <param name="resizeMethod">The method and quality of the resizing process</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Resize(System.Int32,System.Int32,CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode)"><summary>
+     Resize an image to fit to the new maximum dimensions 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <param name="scaleMode">Fit or scale the image</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaling.Resize(System.Int32,System.Int32,CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode,System.Drawing.Drawing2D.InterpolationMode)"><summary>
+     Resize an image 
+ </summary>
+ <param name="maximumWidth">The new maximum width</param>
+ <param name="maximumHeight">The new maximum height</param>
+ <param name="resizeMethod">The method and quality of the resizing process</param>
+ <param name="scaleMode">Fit or scale the image</param>
+ <remarks>
+     Input images which are smaller than the maximum dimensions won't generally get more large. 
+     Widths or heights with zero value will be ignored for size calculation 
+ </remarks>
+ <history>
+ 	[adminsupport]	11.11.2004	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScaleAndFilter.FiltersToApplyBeforeResizing"><summary>
+     An array of filters which shall be applied to the image before it gets resized 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	20.03.2005	Created 
+ </history></member><member name="P:CompuMaster.Drawing.Imaging.ImageScaleAndFilter.FiltersToApplyAfterResizing"><summary>
+     An array of filters which shall be applied to the image after it has been resized 
+ </summary>
+ <value />
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	20.03.2005	Created 
+ </history></member><member name="M:CompuMaster.Drawing.Imaging.ImageScaleAndFilter.Resize(System.Int32,System.Int32,CompuMaster.Drawing.Imaging.IImageScalingProvider.ScaleMode,System.Drawing.Drawing2D.InterpolationMode)"><summary>
+     Resize the image and update width and height property - if it's not already in the cache of the download handler 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[adminsupport]	19.03.2005	Created 
+ </history></member></summary></member></summary>
+    </member>
+  </members>
+</doc>
