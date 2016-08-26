@@ -6,9 +6,9 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://raw.githubusercontent.com/CompuMasterGmbH/CompuMaster.Data/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/CompuMasterGmbH/CompuMaster.Data</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/CompuMasterGmbH/CompuMaster.Data/master/logo_64x64.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/CompuMasterGmbH/CompuMaster.Imaging/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CompuMasterGmbH/CompuMaster.Imaging</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/CompuMasterGmbH/CompuMaster.Imaging/master/logo_64x64.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 		<description>JIT resizing of images, EXIF tools and more</description>
 		<releaseNotes/>
