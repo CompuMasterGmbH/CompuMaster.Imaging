@@ -21,13 +21,6 @@ Namespace CompuMaster.Drawing.Imaging
         '''     will be drawn
         ''' </summary>
         Protected Sub ApplyOuterFrame()
-            Dim Startval As Integer
-            Dim Endval As Integer
-            Dim tempcol As Integer
-            Dim Blueval As Byte
-            Dim Greenval As Byte
-            Dim Redval As Byte
-            Dim tempfact As Double
             Dim BackgroundFarbe As Integer
             ' Außenrand (Backgroundfarbe)
             BackgroundFarbe = BackgroundRed + (BackgroundGreen * (256)) + (BackgroundBlue * (65536))

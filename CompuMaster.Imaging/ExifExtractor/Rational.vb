@@ -50,8 +50,8 @@ Namespace CompuMaster.Drawing.Imaging
                 Return
             End If
             Dim gcd As Integer = euclid(a, b)
-            a /= gcd
-            b /= gcd
+            a = CType(a / gcd, Integer)
+            b = CType(b / gcd, Integer)
         End Sub
 
         Private Function euclid(ByVal a As Integer, ByVal b As Integer) As Integer

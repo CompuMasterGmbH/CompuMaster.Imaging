@@ -101,7 +101,7 @@ Namespace CompuMaster.Drawing.Imaging
             End If
 
             'Processing
-            Dim fs As System.IO.FileStream
+            Dim fs As System.IO.FileStream = Nothing
             Try
                 fs = System.IO.File.OpenRead(filename)
                 ImageInput = System.Drawing.Image.FromStream(fs, useEmbeddedColorManagement)
