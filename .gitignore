@@ -8,3 +8,4 @@
 /.vs
 
 *.nupkg
+/CompuMaster.Imaging/New-NuGetPackages
