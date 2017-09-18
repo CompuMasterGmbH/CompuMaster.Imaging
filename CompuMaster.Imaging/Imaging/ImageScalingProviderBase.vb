@@ -30,11 +30,15 @@ Namespace CompuMaster.Drawing.Imaging
         ''' <returns>The binary data of the image</returns>
         Function ImageOutputData(ByVal format As System.Drawing.Imaging.ImageFormat) As Byte() Implements IImageScalingProvider.ImageOutputData
             Dim s As New System.IO.MemoryStream
-            Me.ImageOutput.Save(s, format)
-            Dim Result As Byte()
-            Result = s.ToArray
-            s.Close()
-            Return Result
+            Try
+                Me.ImageOutput.Save(s, format)
+                Dim Result As Byte()
+                Result = s.ToArray
+                s.Close()
+                Return Result
+            Finally
+                s.Dispose()
+            End Try
         End Function
 
         Private _BackgroundColor As System.Drawing.Color = Color.White 'Color.Transparent

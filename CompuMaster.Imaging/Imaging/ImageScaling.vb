@@ -23,9 +23,12 @@ Namespace CompuMaster.Drawing.Imaging
         Public Sub Read(ByVal data As Byte())
             'ToDo: review code if it really works as promised in the description of this method and for which file formats
             Dim stream As New System.IO.MemoryStream(data)
-            ImageInput = System.Drawing.Image.FromStream(stream)
-            stream.Close()
-            stream.Dispose
+            Try
+                ImageInput = System.Drawing.Image.FromStream(stream)
+                stream.Close()
+            Finally
+                stream.Dispose()
+            End Try
         End Sub
 
 
@@ -37,9 +40,12 @@ Namespace CompuMaster.Drawing.Imaging
         Public Sub Read(ByVal data As Byte(), ByVal useEmbeddedColorManagement As Boolean)
             'ToDo: review code if it really works as promised in the description of this method and for which file formats
             Dim stream As New System.IO.MemoryStream(data)
-            ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement)
-            stream.Close()
-            stream.Dispose()
+            Try
+                ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement)
+                stream.Close()
+            Finally
+                stream.Dispose()
+            End Try
         End Sub
 
 
@@ -52,9 +58,13 @@ Namespace CompuMaster.Drawing.Imaging
         Public Sub Read(ByVal data As Byte(), ByVal useEmbeddedColorManagement As Boolean, ByVal validateImageData As Boolean)
             'ToDo: review code if it really works as promised in the description of this method and for which file formats
             Dim stream As New System.IO.MemoryStream(data)
-            ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement, validateImageData)
-            stream.Close()
-            stream.Dispose()
+            Try
+                ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement, validateImageData)
+                stream.Close()
+            Finally
+                stream.Dispose()
+            End Try
+
         End Sub
 
 
@@ -345,7 +355,6 @@ Namespace CompuMaster.Drawing.Imaging
                 If disposing Then 'Dispose managed code
                     Me.Graphic.Dispose()
                     Me.ImageInput.Dispose()
-                    Me.ImageOutput.Dispose()
                     Me.ResizedImage.Dispose()
                 End If
                 'Dispose unmanaged code
