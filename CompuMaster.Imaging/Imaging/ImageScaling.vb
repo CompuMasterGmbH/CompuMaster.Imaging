@@ -13,6 +13,7 @@ Namespace CompuMaster.Drawing.Imaging
     ''' </summary>
     Public Class ImageScaling
         Inherits ImageScalingProviderBase
+        Implements IDisposable
 
 
         ''' <summary>
@@ -24,6 +25,7 @@ Namespace CompuMaster.Drawing.Imaging
             Dim stream As New System.IO.MemoryStream(data)
             ImageInput = System.Drawing.Image.FromStream(stream)
             stream.Close()
+            stream.Dispose
         End Sub
 
 
@@ -37,6 +39,7 @@ Namespace CompuMaster.Drawing.Imaging
             Dim stream As New System.IO.MemoryStream(data)
             ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement)
             stream.Close()
+            stream.Dispose()
         End Sub
 
 
@@ -51,6 +54,7 @@ Namespace CompuMaster.Drawing.Imaging
             Dim stream As New System.IO.MemoryStream(data)
             ImageInput = System.Drawing.Image.FromStream(stream, useEmbeddedColorManagement, validateImageData)
             stream.Close()
+            stream.Dispose()
         End Sub
 
 
@@ -326,6 +330,36 @@ Namespace CompuMaster.Drawing.Imaging
 
         End Sub
 
+#Region "IDisposable Support"
+        ''' <summary>
+        ''' Used to check for redundant calls
+        ''' </summary>
+        Private disposedValue As Boolean
+
+        ''' <summary>
+        ''' Dispose object
+        ''' </summary>
+        ''' <param name="disposing">Should be true if called by <see cref="Dispose"/>() and false if called by <code>Finalize()</code></param>
+        Protected Overridable Sub Dispose(disposing As Boolean)
+            If Not disposedValue Then 'check if called multiple times
+                If disposing Then 'Dispose managed code
+                    Me.Graphic.Dispose()
+                    Me.ImageInput.Dispose()
+                    Me.ImageOutput.Dispose()
+                    Me.ResizedImage.Dispose()
+                End If
+                'Dispose unmanaged code
+            End If
+            disposedValue = True
+        End Sub
+
+        ''' <summary>
+        ''' Dispose object
+        ''' </summary>
+        Public Sub Dispose() Implements IDisposable.Dispose
+            Dispose(True)
+        End Sub
+#End Region
     End Class
 
 End Namespace
