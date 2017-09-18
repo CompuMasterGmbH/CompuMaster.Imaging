@@ -126,6 +126,7 @@ Namespace CompuMaster.Drawing.Imaging
             Finally
                 If Not fs Is Nothing Then
                     fs.Close()
+                    fs.Dispose()
                 End If
             End Try
             'ImageInput = System.Drawing.Image.FromFile(filename, useEmbeddedColorManagement)
@@ -354,8 +355,6 @@ Namespace CompuMaster.Drawing.Imaging
             If Not disposedValue Then 'check if called multiple times
                 If disposing Then 'Dispose managed code
                     Me.Graphic.Dispose()
-                    Me.ImageInput.Dispose()
-                    Me.ResizedImage.Dispose()
                 End If
                 'Dispose unmanaged code
             End If

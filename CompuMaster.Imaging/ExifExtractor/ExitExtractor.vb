@@ -353,7 +353,16 @@ Namespace CompuMaster.Drawing.Imaging
         ''' <returns>The extracted property attributes</returns>
         Public Shared Function GetExifProperties(ByVal fileName As String) As PropertyItem()
             Dim stream As New FileStream(fileName, FileMode.Open, FileAccess.Read)
-            Dim image As System.Drawing.Image = System.Drawing.Image.FromStream(stream, True, False)
+            Dim image As System.Drawing.Image
+
+            Try
+                image = System.Drawing.Image.FromStream(stream, True, False)
+            Finally
+                If stream IsNot Nothing Then
+                    stream.Close()
+                    stream.Dispose()
+                End If
+            End Try
             Return image.PropertyItems
         End Function
 
