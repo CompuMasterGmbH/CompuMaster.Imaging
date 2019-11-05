@@ -1,0 +1,12 @@
+language: csharp
+solution: CompuMaster.Imaging.VS2015.sln
+
+before_install:
+  - nuget install NUnit.Runners -Version 3.10.0 -OutputDirectory testrunner
+
+install:
+  - nuget restore CompuMaster.Imaging.VS2015.sln
+
+script:
+  - msbuild /p:Configuration=Release /p:Platform="Any CPU" /p:PostBuildEvent="" CompuMaster.Imaging.VS2015.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.10.0/tools/nunit3-console.exe ./CompuMaster.Test.Imaging/bin/CompuMaster.Test.Imaging.dll
