@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "QZdQSgZLn73zA9+mD/Im65K4yPktYCxCuxDjaSvilPJ3uPXamawcQhr3oNLkgyoLEdSLY53Zl9AapR4rVIYXGA==",
+  "success": true,
+  "projectFilePath": "D:\\git_local_repository\\software-projects\\CompuMaster.Imaging\\CompuMaster.Imaging.VS2015_multi\\CompuMaster.Imaging.VS2015_multi.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\schaedler\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\schaedler\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\schaedler\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
