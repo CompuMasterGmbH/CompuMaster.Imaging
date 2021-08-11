@@ -1,5 +1,0 @@
-D:\git_local_repository\software-projects\CompuMaster.Imaging\CompuMaster.Imaging.VS2015_multi\obj\Debug\net5.0\CompuMaster.Imaging.VS2015_multi.vbproj.AssemblyReference.cache
-D:\git_local_repository\software-projects\CompuMaster.Imaging\CompuMaster.Imaging.VS2015_multi\obj\Debug\net5.0\CompuMaster.Imaging.VS2015_multi.GeneratedMSBuildEditorConfig.editorconfig
-D:\git_local_repository\software-projects\CompuMaster.Imaging\CompuMaster.Imaging.VS2015_multi\obj\Debug\net5.0\CompuMaster.Imaging.VS2015_multi.AssemblyInfoInputs.cache
-D:\git_local_repository\software-projects\CompuMaster.Imaging\CompuMaster.Imaging.VS2015_multi\obj\Debug\net5.0\CompuMaster.Imaging.VS2015_multi.AssemblyInfo.vb
-D:\git_local_repository\software-projects\CompuMaster.Imaging\CompuMaster.Imaging.VS2015_multi\obj\Debug\net5.0\CompuMaster.Imaging.VS2015_multi.vbproj.CoreCompileInputs.cache
