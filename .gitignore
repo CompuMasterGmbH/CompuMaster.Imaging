@@ -1,11 +1,8 @@
-/packages
-/CompuMaster.Test.Imaging/obj
-/CompuMaster.Test.Imaging/bin
-/CompuMaster.Test.Imaging/*.user
-/CompuMaster.Imaging/obj
-/CompuMaster.Imaging/bin
-/CompuMaster.Imaging/*.user
+packages
+bin
+obj
+*.user
 /.vs
-
 *.nupkg
 /CompuMaster.Imaging/New-NuGetPackages
+*.cache
