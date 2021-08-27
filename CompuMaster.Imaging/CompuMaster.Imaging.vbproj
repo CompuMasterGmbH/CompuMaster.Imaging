@@ -80,6 +80,15 @@
 	<PropertyGroup>
 		<MyType>Empty</MyType>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+	  <DocumentationFile>CompuMaster.Imaging.xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+	  <DocumentationFile>CompuMaster.Imaging.xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='CI_CD|netstandard2.0|AnyCPU'">
+	  <DocumentationFile>CompuMaster.Imaging.xml</DocumentationFile>
+	</PropertyGroup>
 	<ItemGroup Condition="'$(Targetframework)' == 'net48' Or '$(Targetframework)' == 'net45'">
 		<Reference Include="System.Web" />
 	</ItemGroup>
