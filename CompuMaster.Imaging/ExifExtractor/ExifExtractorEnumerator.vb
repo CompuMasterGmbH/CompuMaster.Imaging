@@ -11,23 +11,27 @@ Namespace CompuMaster.Drawing.Imaging
     Class ExifExtractorEnumerator
         Implements IEnumerator
 
-        Private exifTable As Hashtable
+        Private ReadOnly exifTable As Hashtable
 
         Private index As IDictionaryEnumerator
 
         Friend Sub New(ByVal exif As Hashtable)
             Me.exifTable = exif
             Me.Reset()
-            index = exif.GetEnumerator()
+            index = exifTable.GetEnumerator()
         End Sub
 
         Public Sub Reset() Implements IEnumerator.Reset
             Me.index = Nothing
         End Sub
 
+        ''' <summary>
+        ''' A System.Collections.DictionaryEntry representing key and value of current enumeration item
+        ''' </summary>
+        ''' <returns></returns>
         Public ReadOnly Property Current() As Object Implements IEnumerator.Current
             Get
-                Return (New System.Web.UI.Pair(Me.index.Key, Me.index.Value))
+                Return (New System.Collections.DictionaryEntry(Me.index.Key, Me.index.Value))
             End Get
         End Property
 
