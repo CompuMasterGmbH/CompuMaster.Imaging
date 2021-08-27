@@ -79,6 +79,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<MyType>Empty</MyType>
+		<PackageIconUrl />
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
 	  <DocumentationFile>CompuMaster.Imaging.xml</DocumentationFile>
@@ -119,5 +120,11 @@
 	  <PackageReference Include="System.Drawing.Common">
 	    <Version>5.0.2</Version>
 	  </PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\logo_64x64.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 </Project>
