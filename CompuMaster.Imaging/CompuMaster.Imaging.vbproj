@@ -80,6 +80,7 @@
 	<PropertyGroup>
 		<MyType>Empty</MyType>
 		<PackageIconUrl />
+		<RootNamespace />
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
 	  <DocumentationFile>CompuMaster.Imaging.xml</DocumentationFile>
